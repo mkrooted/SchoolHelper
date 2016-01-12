@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SchoolHelper</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">School Helper v0.1a</string>
+
+    <string name="title_activity_stealth_mode">Clock</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="unlock">PRESS TO UNLOCK</string>
+</resources>

@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#78909c"
+    tools:context="com.mkrooted.schoolhelper.Stealth_mode">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/background"
+        android:layout_gravity="center">
+
+        <TextClock
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textClock"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="75sp"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:alpha="1"
+            android:fontFamily="sans-serif-thin"
+            android:autoText="false" />
+        <FrameLayout
+            android:layout_width="275dp"
+            android:layout_height="275dp"
+            android:layout_gravity="center"
+            android:background="#fff"
+            android:alpha="0.25">
+        </FrameLayout>
+        <CalendarView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/calendarView"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/unlock"
+            android:id="@+id/unlockBtn"
+            android:layout_gravity="center_horizontal|bottom"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="35sp"
+            android:fontFamily="sans-serif-light"/>
+
+    </FrameLayout>
+
+</FrameLayout>
