@@ -10,9 +10,12 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Index extends AppCompatActivity implements View.OnClickListener{
 
+    ImageButton imgb1;
+    ImageButton imgb2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,8 +23,12 @@ public class Index extends AppCompatActivity implements View.OnClickListener{
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        imgb1 = (ImageButton) findViewById(R.id.imgb1);
+        imgb2 = (ImageButton) findViewById(R.id.imgb2);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.indexFab);
         fab.setOnClickListener(this);
+        imgb1.setOnClickListener(this);
+        imgb2.setOnClickListener(this);
     }
 
     @Override
@@ -48,11 +55,15 @@ public class Index extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
+        Intent intent;
         switch (v.getId()){
             case R.id.indexFab:
-                Intent intent = new Intent(this, Stealth_mode.class);
+                intent = new Intent(this, Stealth_mode.class);
                 startActivity(intent);
                 break;
+            case R.id.imgb1:
+                intent = new Intent(this, GDZAct.class);
+                startActivity(intent);
         }
     }
 }

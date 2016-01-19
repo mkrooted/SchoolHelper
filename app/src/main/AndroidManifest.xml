@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mkrooted.schoolhelper">
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,8 +22,17 @@
             android:name=".Stealth_mode"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_stealth_mode"
-            android:theme="@style/FullscreenTheme"
-            android:parentActivityName=".Index"></activity>
+            android:parentActivityName=".Index"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".GDZAct"
+            android:label="@string/title_activity_gdz"
+            android:parentActivityName=".Index"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mkrooted.schoolhelper.Index" />
+        </activity>
     </application>
 
 </manifest>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SchoolHelper</string>
     <string name="action_settings">Settings</string>
@@ -7,4 +8,32 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="unlock">PRESS TO UNLOCK</string>
+    <string name="title_activity_gdz">GDZAct</string>
+    <string name="s1">http://google.com</string>
+    <string name="s2">http://gdz4you.com/geometria/</string>
+    <string name="s3">http://gdz4you.com/ukrainskiy-yazik/</string>
+    <string name="s4">http://gdz4you.com/russkiy-yazik</string>
+    <string name="s5">http://gdz4you.com/angliyskiy-yazik/</string>
+    <string name="s6">http://gdz4you.com/himiya</string>
+    <string name="s7">http://gdz4you.com/fizika/</string>
+    <string name="s8">http://gdz4you.com/geografiya/</string>
+    <string name="s9">http://gdz4you.com/biologiya/</string>
+    <string name="s10">http://gdz4you.com/istoriya/</string>
+    <string name="s11">http://gdz4you.com/obj/</string>
+    <string name="s12">http://gdz4you.com/ukrainskaya-literatura</string>
+    <string name="s13">http://gdz4you.com/zarubeghnaya-literatura</string>
+
+    <string name="t1">Алгебра</string>
+    <string name="t2">Геометрия</string>
+    <string name="t3">Укр. Язык</string>
+    <string name="t4">Рус. Язык</string>
+    <string name="t5">Англ. Язык</string>
+    <string name="t6">Химия</string>
+    <string name="t7">Физика</string>
+    <string name="t8">География</string>
+    <string name="t9">Биология</string>
+    <string name="t10">История</string>
+    <string name="t11">ОБЖ</string>
+    <string name="t12">Укр. Литература</string>
+    <string name="t13">Заруб. Литература</string>
 </resources>
