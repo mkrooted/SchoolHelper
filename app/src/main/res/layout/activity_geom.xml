@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.user59.encyclopedia.Geom">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView4">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView android:text="Геометрия" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/geomtxt"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-thin" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:src="@drawable/geomsincos"
+                android:id="@+id/imageView17" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/geomsin"
+                android:id="@+id/imageView16"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="270dp"
+                android:src="@drawable/geompodibnist"
+                android:id="@+id/imageView14"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/geomrivnist"
+                android:id="@+id/imageView15" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/geomsinform"
+                android:id="@+id/imageView18" />
+
+            <ImageView
+                android:layout_width="345dp"
+                android:layout_height="342dp"
+                android:id="@+id/imageView13"
+                android:src="@drawable/geompifagor"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
