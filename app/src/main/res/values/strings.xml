@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SchoolHelper</string>
+    <string name="app_name">Помощник Школьника</string>
     <string name="action_settings">Settings</string>
     <string name="title">School Helper v0.1a</string>
 
     <string name="title_activity_stealth_mode">Clock</string>
+    <string name="calc">Calculator</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="Encyclopedia">Encyclopedia</string>
+    <string name="Eng">English</string>
+    <string name="Geom">Geometry</string>
+    <string name="Math">Mathematics</string>
+    <string name="Physics">Physics</string>
+    <string name="Shpora">Cheat sheet</string>
+
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="unlock">PRESS TO UNLOCK</string>
@@ -36,4 +45,5 @@
     <string name="t11">ОБЖ</string>
     <string name="t12">Укр. Литература</string>
     <string name="t13">Заруб. Литература</string>
+    <string name="title_activity_calc">Calc</string>
 </resources>

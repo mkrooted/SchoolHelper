@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mkrooted.schoolhelper">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +13,7 @@
         <activity
             android:name=".Index"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,16 +25,55 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_stealth_mode"
             android:parentActivityName=".Index"
-            android:theme="@style/FullscreenTheme" />
+            android:theme="@style/AppTheme" />
         <activity
-            android:name=".GDZAct"
-            android:label="@string/title_activity_gdz"
+            android:name=".Eng"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/Eng"
+            android:parentActivityName=".Encyclopedia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Geom"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/Geom"
+            android:parentActivityName=".Encyclopedia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Math"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/Math"
+            android:parentActivityName=".Encyclopedia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Chemistry"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/chemistry"
+            android:parentActivityName=".Encyclopedia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Encyclopedia"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/Encyclopedia"
             android:parentActivityName=".Index"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.mkrooted.schoolhelper.Index" />
-        </activity>
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Physics"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/Physics"
+            android:parentActivityName=".Encyclopedia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Shpora"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_stealth_mode"
+            android:parentActivityName=".Encyclopedia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Calc"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/calc"
+            android:parentActivityName=".Index"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

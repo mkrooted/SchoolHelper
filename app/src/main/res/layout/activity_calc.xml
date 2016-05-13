@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.mkrooted.schoolhelper.Index">
+    tools:context="com.mkrooted.schoolhelper.Calc">
 
-    <include layout="@layout/content_index" />
+    <include layout="@layout/content_calc" />
 
 </android.support.design.widget.CoordinatorLayout>

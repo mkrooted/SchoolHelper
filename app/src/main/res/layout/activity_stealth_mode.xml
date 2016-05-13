@@ -29,18 +29,6 @@
             android:alpha="1"
             android:fontFamily="sans-serif-thin"
             android:autoText="false" />
-        <FrameLayout
-            android:layout_width="275dp"
-            android:layout_height="275dp"
-            android:layout_gravity="center"
-            android:background="#fff"
-            android:alpha="0.25">
-        </FrameLayout>
-        <CalendarView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:id="@+id/calendarView"
-            android:layout_gravity="center" />
 
         <TextView
             android:layout_width="match_parent"
